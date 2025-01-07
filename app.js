@@ -23,10 +23,6 @@ formulario.addEventListener("submit", e=> {
         warnings += `El email no es valido <br>`
         entrar = true
     }
-    if(empresa.value.length <3){
-        warnings += `Empresa está en blanco <br>`
-        entrar = true
-    }
     if(mensaje.value.length <1){
         warnings += `El mensaje está en blanco <br>`
         entrar = true

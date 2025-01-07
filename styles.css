@@ -4,6 +4,7 @@ body {
     color: #cccccc;
     font-family: "Josefin Sans", serif;
 }
+
 .navbar {
     display: flex;
     position: fixed;
@@ -17,12 +18,16 @@ body {
     text-decoration: none;
     box-shadow: 0 5px 5px rgba(14, 13, 13, 0.1);
 }
+
 .nav-container-logo {
     height: 80px;
+    margin-left: 12px;
 }
+
 .logo-img {
     height: 80px;
 }
+
 .nav-ul { 
     display: flex;
     justify-content: center;
@@ -30,10 +35,12 @@ body {
     list-style: none;
     margin-right: 24px;
 }
+
 .nav-link{
     text-decoration: none;
     color: #cccccc;
 }
+
 .nav-ul-li {
     display: flex;
     justify-content: center;
@@ -44,10 +51,10 @@ body {
     cursor: pointer;
     transition: all 0.3s ease;
 }
+
 .nav-link:visited {
     color: #cccccc;
 }
-
 
 main {
     margin-top: 80px;
@@ -63,6 +70,7 @@ header {
     justify-content: center;
     min-height: 550px;
 }
+
 .header-container-title {
     margin: 25vh 5vw;
 }
@@ -71,6 +79,9 @@ header {
     width: 357px;
     height: 420px;
     margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .section-services{
@@ -129,6 +140,11 @@ header {
     border-radius: 10px;
     max-width: 800px;
 }
+
+#Contactanos {
+    margin: 30px;
+}
+
 .section-contactUs {
     display: flex;
     align-items: center;
@@ -136,8 +152,6 @@ header {
     flex-direction: column;
     min-height: 500px;
 }
-
-
 
 .form-container-input {
     display: flex;
@@ -175,7 +189,6 @@ header {
     color: #b5cab6;
  }
 
-
 .form-button {
     font-size: 16px;
     color: white;
@@ -200,7 +213,6 @@ header {
     color: #f05116;
     padding-top: 20px;
 }
-
 
 .footer-container {
     display: flex;
@@ -258,6 +270,15 @@ header {
         flex-direction: column;
     }
 
+    .header-container-title {
+        margin: 185px 38px 20px 38px
+    }
+
+    .logo-transparent {
+        height: 100%;
+        margin: auto;
+    }
+
     .section-container-services {
         flex-direction: column;
     }
@@ -279,6 +300,11 @@ header {
 
     .form-button {
         width: 100%;
+    }
+
+    .footer-container {
+        display: flex;
+        justify-content: center;
     }
 }
 
