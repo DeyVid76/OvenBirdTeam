@@ -3,6 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="OvenBird Team">
+    <meta name="description" content="En OvenBird, nuestro compromiso es convertir tus sueños digitales en realidades
+    tangibles. Nos dedicamos a ofrecer servicios de desarrollo web . Creemos en la importancia de garantizar 
+    soluciones seguras, innovadoras y escalables que potencien tu negocio y superen tus expectativas">
+    <meta name="keywords" content="Diseño web profesional, desarrollo Front-End, desarrollo Back-End, creación de 
+    páginas web, optimización de rendimiento web, interfaces responsivas, experiencia de usuario intuitiva, APIs 
+    REST, desarrollo web escalable">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,7 +23,7 @@
     <!-- Barra de Navegación -->
     <nav class="navbar">
         <div class="nav-container-logo">
-            <a href="index.html">
+            <a href="/">
                 <img class="logo-img" src="img/logo.png" alt="logo.png">
             </a>
         </div>
@@ -61,39 +68,51 @@
             <div class="section-container-services">
                 <div class="section-container-services-ul">
                     <h3 class="services-h3">
-                        Creamos, diseñamos y desplegamos tu...
+                        Servicios de Front-End
                     </h3>
                     <ul class="services-ul">
                         <li class="services-ul-li">
-                            Blog
+                            Diseño y desarrollo de interfaces responsivas.
                         </li>
                         <li class="services-ul-li">
-                            Ecommerce
+                            Creación de experiencias de usuario (UX) intuitivas
                         </li>
                         <li class="services-ul-li">
-                            Web Educativa
+                            Optimización de rendimiento web
                         </li>
                         <li class="services-ul-li">
-                            Web Institucional o de Negocios
+                            Animaciones y efectos interactivos personalizados
+                        </li>
+                        <li class="services-ul-li">
+                            Integración de APIs en el cliente
+                        </li>
+                        <li class="services-ul-li">
+                            Garantía de compatibilidad entre navegadores y dispositivos.
                         </li>
                     </ul>
                 </div>
                 <div class="section-container-services-ul">
                     <h3 class="services-h3">
-                        Mantenimiento de tu página web.
+                        Servicios de Back-End
                     </h3>
                     <ul class="services-ul">
                         <li class="services-ul-li">
-                            Bases de Datos
+                            Desarrollo de sistemas escalables con  PHP.
                         </li>
                         <li class="services-ul-li">
-                            Actualización de Contenido
+                            Gestión y diseño de bases de datos MySQL.
                         </li>
                         <li class="services-ul-li">
-                            Actualización de Diseño
+                            Creación e integración de APIs REST.
                         </li>
                         <li class="services-ul-li">
-                            Actualización de Funcionalidades
+                            Desarrollo de sistemas de autenticación y autorización seguros.
+                        </li>
+                        <li class="services-ul-li">
+                            Mantenimiento y optimización de servidores.
+                        </li>
+                        <li class="services-ul-li">
+                            Integración con servicios de terceros (pasarelas de pago, mensajería, etc.).
                         </li>
                     </ul>
                 </div>
@@ -103,22 +122,24 @@
         <section class="section-aboutUs">
             <h2 id="SobreNosotros">
                 Sobre Nosotros
-            </h2>
-            <p class="section-aboutUs-p">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero eos magnam a debitis corrupti 
-                praesentium perspiciatis iure modi laborum suscipit id cumque, quae aspernatur. Quaerat tempore 
-                atque commodi sit sequi?
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero eos magnam a debitis corrupti 
-                praesentium perspiciatis iure modi laborum suscipit id cumque, quae aspernatur. Quaerat tempore 
-                atque commodi sit sequi?
-            </p>
+            </h2>    
+            <div class="section-aboutUs-div">
+                <p class="section-aboutUs-p">
+                En OvenBird, nuestro compromiso es convertir tus sueños digitales en realidades tangibles. Nos 
+                dedicamos a ofrecer servicios de desarrollo web . Creemos en la importancia de garantizar soluciones 
+                seguras, innovadoras y escalables que potencien tu negocio y superen tus expectativas.
+                </p>
+                <p class="section-aboutUs-p">Nuestro equipo altamente capacitado se distingue por su dedicación y 
+                    enfoque personalizado en cada proyecto, asegurándonos de que cada detalle cuente. ¡Confía en 
+                    OvenBird y da el primer paso hacia una presencia digital que destaque!</p>
+             </div>
         </section>
     <!-- Sección Contáctanos -->
         <section class="section-contactUs">
             <h2 id="Contactanos">
                 Contacto
             </h2>
-            <form class="section-form" id="form" form action="https://formsubmit.co/ovenbirdteam@gmail.com" method="POST">
+            <form class="section-form" id="form" action="https://formsubmit.co/ovenbirdteam@gmail.com" method="POST">
                 <div class="form-container">
                     <div class="form-container-input">
                         <label class="form-label" for="name">Nombre:</label>
@@ -141,7 +162,7 @@
                         <textarea class="form-textarea" name="message" id="message" cols="50" rows="5"  placeholder="Mensaje"></textarea>
                     </div>
                     <div class="form-container-button">
-                        <input type="hidden" name="_next" value="index.html">
+                        <!-- <input type="hidden" name="_next" value="index.html"> -->
                         <input class="form-button" type="submit" value="Enviar">
                         <p class="warnings" id="warnings"></p>
                     </div>
@@ -151,7 +172,7 @@
     </main>
         <footer class="footer-container">
             <div class="footer-container-links">
-                <a class="footer-link" href="mailto:ovenbirdteam@gmail.com?subject=Asunto%20del%20Correo&body=Hola,%20este%20es%20el%20cuerpo%20del%20mensaje" class="footer-button-link">Contáctanos</a>
+                <a class="footer-link" href="mailto:ovenbirdteam@gmail.com?" class="footer-button-link">Contáctanos</a>
                 <a class="footer-link" href="termsandcond.html">Términos y Condiciones</a>
             </div>
             <div class="footer-container-text">
