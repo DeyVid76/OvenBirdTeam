@@ -161,6 +161,10 @@ header {
     min-height: 500px;
 }
 
+.input-b {
+    display: none;
+}
+
 .form-container-input {
     display: flex;
     flex-direction: column;
